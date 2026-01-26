@@ -1,19 +1,23 @@
 #include <iostream>
 
-void happyBirthday();  //If you want to use func after main, you need to declare them first.
+void happyBirthday(std::string name, int age);  //If you want to use func after main, you need to declare them first.
 
 int main (){
 
-    happyBirthday();
-    happyBirthday();
-    happyBirthday();
+
+    std::string name = "Markian";
+    int age = 18;
+    happyBirthday(name , age); //виводить функцію знизу
+
 
 }
 
-void happyBirthday(){
+void happyBirthday(std::string name, int age){
 
-    std::cout << "Happy birthday to you \n";
-    std::cout << "Happy birthday to you \n";
-    std::cout << "Happy birthday Dear it person \n";
-    std::cout << "Happy birthday to you \n\n";
+    std::cout << "Happy birthday " << name <<std::endl;
+    std::cout << "Happy birthday " << name <<std::endl;
+    std::cout << "Happy birthday " << name <<std::endl;
+    std::cout << "Happy birthday dear " << name << std::endl;
+    std::cout << "Happy birthday " << name <<std::endl;
+    std::cout << "You are " << age << " years old" <<std::endl << std::endl;
 }
