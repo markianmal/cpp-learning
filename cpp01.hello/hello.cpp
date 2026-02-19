@@ -14,5 +14,6 @@ int main()
     */
     cout << "Hello, World!" << std::endl;
     cout << "Привіт, Світ!" << std::endl;
+
     return 0;
 }
