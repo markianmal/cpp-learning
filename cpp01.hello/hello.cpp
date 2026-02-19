@@ -15,6 +15,4 @@ int main()
     cout << "Hello, World!" << std::endl;
     cout << "Привіт, Світ!" << std::endl;
     return 0;
-
-    print "я відраховуюсь!!! і левуш іди нахуй підріла"
 }
